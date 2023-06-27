@@ -1,3 +1,4 @@
+//module
 const fs= require("fs");
 let text= fs.readFileSync("aditya.txt", "utf-8");
 console.log(text);
@@ -8,3 +9,4 @@ console.log(text);
 
 console.log("Creating a new file...")
 fs.writeFileSync("raj.txt", text);
+
